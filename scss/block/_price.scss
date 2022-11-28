@@ -1,0 +1,186 @@
+.price__left-block {
+  max-width: 255px;
+}
+.price__container{
+  margin-left: auto;
+  margin-right: auto;
+}
+.price__main-block {
+  display: flex;
+  align-items: flex-start;
+  align-items: flex-start;
+  justify-content: space-between;
+
+}
+.price__middle-number {
+  margin-right: 25.5px;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888f;
+  &:hover {
+    color: #0e8784;
+  }
+}
+.price__text {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888f;
+  margin-bottom: 24px;
+  &:hover {
+    color: #000;
+  }
+}
+.price__line {
+  max-width: 255px;
+  height: 1px;
+  background: #83888f;
+  opacity: 0.25;
+  margin-bottom: 24px;
+}
+.price__bottom_des {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #83888f;
+  margin-bottom: 56px;
+}
+
+/*===================================*/
+.price__bottom-list {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.price__bottom-item {
+  padding: 32px 28px 84px 28px;
+  background: #f4f1eb;
+  border-radius: 8px;
+  max-width: 228px;
+  margin-bottom: 100px;
+  &:hover {
+    background: #0e8784;
+  }
+  &:active {
+    background: #fdd6ba;
+  }
+}
+.price__bottom-title {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333d4b;
+  margin-bottom: 24px;
+}
+.price__bottom-text {
+  font-weight: 400;
+  max-width: 174px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+}
+.price__black-scale {
+  background: #2c343e;
+  border-radius: 10px;
+  padding: 27px 64px;
+  margin-bottom: 40px;
+  margin-top: 120px;
+}
+.price__black-title {
+  font-family: "Barlow";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #ffffff;
+  opacity: 0.5;
+  margin-bottom: 8px;
+}
+.price__black-text {
+  max-width: 641px;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 40px;
+  color: #ffffff;
+}
+.price__spancha {
+  color: #0e8784;
+}
+.price__black-link {
+  font-weight: 900;
+  margin-left: 70%;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #fefcf7;
+  background: #0E8784;
+border-radius: 6px;
+padding: 15px 35.5px 16px 36.5px;
+margin-bottom: 184px;
+&:hover{
+  background: #66D2CF;
+}
+&:active{
+    background: #E2DEDB;
+  }
+}
+
+@media screen and (max-width:1141px) {
+    .price__left-block{
+        display: none;
+    }
+    .price__right-block{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .price__black-link{
+        margin-left: 35%;
+    }
+  
+}
+@media screen and (max-width:783px) {
+    .price__bottom-list{
+        flex-direction: column;
+        gap: 0;
+    }
+    .price__bottom-item{
+        margin-bottom: 16px;
+        padding: 24px 25px;
+
+    }
+    .price__bottom_des{
+        font-size: 24px;
+line-height: 28px;
+display: flex;
+    }
+  
+    .price__black-link{
+        margin-left: 34%;
+    }
+}
+@media screen and (max-width:539px) {
+    .price__black-link{
+        margin-left: 18%;
+    }
+    .price__black-title{
+        font-size: 16px;
+line-height: 26px;
+    }
+    .price__black-scale{
+        
+        padding: 32px 24px;
+    }
+    .price__black-text{
+        max-width: 245px;
+font-size: 24px;
+line-height: 40px;
+    }
+}
+@media screen and (max-width:369px) {
+    .price__black-link{
+        margin-left: 12%;
+    }
+}

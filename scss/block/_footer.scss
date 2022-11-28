@@ -1,0 +1,106 @@
+.footer{
+    padding-bottom: 88px;
+}
+
+.footer__block{
+    max-width: 1320px;
+padding: 47px 85px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #2C343E;
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+}
+.footer__middle-block{
+    display: flex;
+    align-items: center;
+    gap: 103px;
+}
+.footer__link{
+    font-family: 'Barlow';
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #83888F;
+&:hover{
+    color: #fff;
+}
+&:active{
+    color: green;
+}
+}
+.footer__link + .footer__link{
+    margin-left: 33px;
+}
+.footer__social-media + .footer__social-media{
+    margin-left: 24px;
+}
+.footer__social-media{
+    width: 24px;
+    height: 24px;
+}
+
+@media screen and (max-width:1000px) {
+    .footer__block{
+        max-width: 688px;
+        height: 270px;
+padding: 54px 200px;
+    background: #2C343E;
+    }
+    .footer__block{
+        flex-direction: column;
+    }
+    .footer__middle-block{
+        flex-direction: column;
+        gap: 0;
+    }
+    .footer__list{
+        margin-top: 32px;
+        margin-bottom: 65px;
+    }
+    .footer__block{
+        justify-content:center;
+    }
+
+}
+@media screen and (max-width:740px) {
+    .footer__item{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+    .footer__link + .footer__link{
+        margin-left: 0;
+    }
+    .footer__link{
+        margin-bottom: 24px;
+    }
+    .footer__logo{
+        display: flex;
+        flex-shrink: 0;
+    }
+}
+@media screen and (max-width:570px) {
+    .footer__item{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+    .footer__link + .footer__link{
+        margin-left: 0;
+    }
+    .footer__link{
+        margin-bottom: 24px;
+    }
+    .footer__logo{
+        display: flex;
+        flex-shrink: 0;
+    }
+    .footer__helper-for-image{
+        display: flex;
+        flex-shrink: 0;
+    }
+}

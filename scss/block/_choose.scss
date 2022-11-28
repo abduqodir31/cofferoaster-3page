@@ -1,0 +1,95 @@
+.choose {
+  padding-bottom: 168px;
+}
+.choose__block {
+  background: #2c343e;
+  border-radius: 10px;
+  padding: 100px 150px 99px 85px;
+}
+.choose__line {
+  width: 760px;
+  border: 1px solid #fdd6ba;
+  margin-bottom: 82.5px;
+}
+
+
+
+.choose__title {
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #fdd6ba;
+  margin-bottom: 38px;
+}
+.choose__sub-title {
+  max-width: 255px;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #fefcf7;
+  margin-bottom: 42px;
+}
+.choose__text {
+  font-family: "Barlow";
+  max-width: 280px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+}
+.choose__list {
+  display: flex;
+  align-items: center;
+  gap: 95px;
+}
+@media screen and (max-width:982px) {
+  .choose__line {
+    width: 467px;
+    border: 2px solid #fdd6ba;
+  }
+  .choose__items{
+    max-width: 223px;
+    height: 367px;
+  
+  }
+  .choose__text{
+    max-width: 223px;
+    height: 150px;
+    background-color: transparent;
+
+  overflow: auto;
+  }
+  .choose__sub-title{
+    font-size: 28px;
+line-height: 32px;
+  }
+
+}
+@media screen and (max-width:700px) {
+   .choose__list{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+ 
+   } 
+   .choose__items{
+    max-width: 339px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   }
+   .choose__block{
+    padding: 80px 24px;
+   }
+   .choose__line{
+    display: none;
+   }
+   .choose__sub-title{
+    font-weight: 900;
+font-size: 28px;
+line-height: 32px;
+   }
+}
